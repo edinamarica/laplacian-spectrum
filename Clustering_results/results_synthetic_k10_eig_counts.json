@@ -1,0 +1,146 @@
+[
+    {
+        "params": {
+            "k": 10,
+            "which_L": "normalized",
+            "which_eigvals": "SM",
+            "embedding_method": "eigenvalue counts",
+            "clustering_method": "cluster_kmeans",
+            "number_of_clusters": 3
+        },
+        "avg_ari": 0.9913452369309314,
+        "std_ari": 0.013298507027487123,
+        "avg_nmi": 0.9879234349832078,
+        "std_nmi": 0.01799312478404872,
+        "avg_time": 0.5264281590779623,
+        "std_time": 0.054511210722818025
+    },
+    {
+        "params": {
+            "k": 10,
+            "which_L": "normalized",
+            "which_eigvals": "SM",
+            "embedding_method": "eigenvalue counts",
+            "clustering_method": "cluster_hierarchical_eucl",
+            "number_of_clusters": 3
+        },
+        "avg_ari": 0.9695462302526465,
+        "std_ari": 0.016800652992969196,
+        "avg_nmi": 0.9607377123335843,
+        "std_nmi": 0.02166011223785871,
+        "avg_time": 0.4964117924372355,
+        "std_time": 0.06262947865839423
+    },
+    {
+        "params": {
+            "k": 10,
+            "which_L": "normalized",
+            "which_eigvals": "SM",
+            "embedding_method": "eigenvalue counts",
+            "clustering_method": "cluster_spectral",
+            "number_of_clusters": 3
+        },
+        "avg_ari": 0.9701048481759635,
+        "std_ari": 0.009827156542076663,
+        "avg_nmi": 0.9594897379454768,
+        "std_nmi": 0.010701417510366684,
+        "avg_time": 0.5716700792312622,
+        "std_time": 0.057675414738259816
+    },
+    {
+        "params": {
+            "k": 10,
+            "which_L": "normalized",
+            "which_eigvals": "LM",
+            "embedding_method": "eigenvalue counts",
+            "clustering_method": "cluster_kmeans",
+            "number_of_clusters": 3
+        },
+        "avg_ari": 0.4359934961378397,
+        "std_ari": 0.04623023551132034,
+        "avg_nmi": 0.5728544977737031,
+        "std_nmi": 0.0421679089939301,
+        "avg_time": 0.39345242182413737,
+        "std_time": 0.03783907445278541
+    },
+    {
+        "params": {
+            "k": 10,
+            "which_L": "normalized",
+            "which_eigvals": "LM",
+            "embedding_method": "eigenvalue counts",
+            "clustering_method": "cluster_hierarchical_eucl",
+            "number_of_clusters": 3
+        },
+        "avg_ari": 0.5181985804386495,
+        "std_ari": 0.03549417999865217,
+        "avg_nmi": 0.6634177220059748,
+        "std_nmi": 0.04393660268201231,
+        "avg_time": 0.33912190596262615,
+        "std_time": 0.04495110717747628
+    },
+    {
+        "params": {
+            "k": 10,
+            "which_L": "normalized",
+            "which_eigvals": "LM",
+            "embedding_method": "eigenvalue counts",
+            "clustering_method": "cluster_spectral",
+            "number_of_clusters": 3
+        },
+        "avg_ari": 0.04210680268302223,
+        "std_ari": 0.09562829691557494,
+        "avg_nmi": 0.12823677968979935,
+        "std_nmi": 0.11779637577266934,
+        "avg_time": 0.47858877182006837,
+        "std_time": 0.04641422880727888
+    },
+    {
+        "params": {
+            "k": 10,
+            "which_L": "normalized",
+            "which_eigvals": "BE",
+            "embedding_method": "eigenvalue counts",
+            "clustering_method": "cluster_kmeans",
+            "number_of_clusters": 3
+        },
+        "avg_ari": 0.7381363953415874,
+        "std_ari": 0.03985336973096062,
+        "avg_nmi": 0.7820824997034607,
+        "std_nmi": 0.03800471281474193,
+        "avg_time": 0.3586776892344157,
+        "std_time": 0.0200125045394648
+    },
+    {
+        "params": {
+            "k": 10,
+            "which_L": "normalized",
+            "which_eigvals": "BE",
+            "embedding_method": "eigenvalue counts",
+            "clustering_method": "cluster_hierarchical_eucl",
+            "number_of_clusters": 3
+        },
+        "avg_ari": 0.6987425218901218,
+        "std_ari": 0.09313122073632057,
+        "avg_nmi": 0.7641312962717298,
+        "std_nmi": 0.0768926494081814,
+        "avg_time": 0.32518910566965736,
+        "std_time": 0.03591659759652622
+    },
+    {
+        "params": {
+            "k": 10,
+            "which_L": "normalized",
+            "which_eigvals": "BE",
+            "embedding_method": "eigenvalue counts",
+            "clustering_method": "cluster_spectral",
+            "number_of_clusters": 3
+        },
+        "avg_ari": 0.16481887689333888,
+        "std_ari": 0.2497726410631031,
+        "avg_nmi": 0.2513361425306671,
+        "std_nmi": 0.2914608635830288,
+        "avg_time": 0.4822368065516154,
+        "std_time": 0.039374792308392595
+    }
+]
