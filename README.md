@@ -1,2 +1,2 @@
-# laplacian-spectrum
-Implementation and experimental evaluation done for my Master's thesis on Analyzing the spectral properties of biological networks
+# Analyzing the spectral properties of biological networks
+This repository contains the data, implementation, and experimental evaluations done for my Master's thesis titled "Analyzing the spectral properties of biological networks".
